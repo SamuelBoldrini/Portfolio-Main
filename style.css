@@ -75,12 +75,31 @@ p {
     max-width: 800px;
 }
 
+.profession {
+    margin-bottom: 5rem;
+}
+
 .div_me {
     color: #F2F1F0;
     text-align: left;
 }
 
-.local {
-    margin-top: 5rem;
+.div_local, .div_money {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
 }
 
+.local_image, .money_image {
+    width: 20px;
+}
+
+.contact_anchors {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.contact_anchors img {
+    width: 15px;
+}
