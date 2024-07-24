@@ -24,7 +24,7 @@ a {
 header {
     display: flex;
     gap: 1rem;
-    margin: 2rem 0;
+    margin: 2rem 0
 }
 
 a:hover {
@@ -37,6 +37,7 @@ a:hover {
     flex-wrap: wrap;
     max-width: 1200px;
     gap: 2rem;
+    margin-bottom: .5rem;
 }
 
 main {
@@ -51,8 +52,8 @@ main {
 .avatar {
     width: 100%;
     max-width: 24rem;
-    border-radius: 4px;
-    box-shadow: 4px 5px 12px #E64E74;
+    border-radius: 12px;
+    box-shadow: 4px 5px 12px #F2F1F0;
     margin: 0 auto;
 }
 
@@ -61,7 +62,8 @@ main {
     width: 225px;
     border-radius: 12px;
     padding: 6px 0;
-    margin: 2.5rem auto 2rem;
+    margin-top: .5rem;
+    margin: 2rem auto;
 }
 
 h2 {
@@ -75,13 +77,12 @@ p {
     max-width: 800px;
 }
 
-.profession {
-    margin-bottom: 5rem;
-}
-
 .div_me {
     color: #F2F1F0;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
 }
 
 .div_local, .div_money {
@@ -101,5 +102,10 @@ p {
 }
 
 .contact_anchors img {
-    width: 15px;
+    width: 30px;
+}
+
+.about_me {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #F2F1F0;
 }
